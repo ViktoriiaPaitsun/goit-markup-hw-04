@@ -85,6 +85,23 @@ img {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
+  transition: color 250ms;
+}
+
+.current {
+  position: relative;
+  color: #404bbf;
+}
+
+.current::after {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  content: " ";
+  background-color: #404bbf;
+  border-radius: 2px;
+  height: 4px;
+  width: 100%;
 }
 
 .nav-link:hover,
@@ -116,9 +133,16 @@ img {
 }
 
 .hero {
-  background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .hero-title {
