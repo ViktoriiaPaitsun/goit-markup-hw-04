@@ -221,6 +221,18 @@ img {
   width: calc((100% - 3 * 24px) / 4);
 }
 
+.advantages-icon {
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
 .advantages-subtitle {
   margin-bottom: 8px;
 }
@@ -269,8 +281,23 @@ img {
 
 .team-card-list {
   display: flex;
-
   gap: 24px;
+}
+
+.team-card-link {
+  display: inline-block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+}
+
+.team-card-link:hover {
+  background-color: #404bbf;
+}
+
+.team-card-icon {
+  fill: transparent;
 }
 
 .portfolio {
@@ -331,4 +358,8 @@ img {
 .footer-text {
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-icon-text {
+  color: #fff;
 }
