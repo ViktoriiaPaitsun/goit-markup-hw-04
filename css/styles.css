@@ -176,7 +176,7 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
   min-width: 169px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -303,7 +303,7 @@ img {
   background-color: #4d5ae5;
   justify-content: center;
   align-items: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-card-link:hover,
@@ -335,7 +335,7 @@ img {
 
 .portfolio-item {
   width: calc((100% - 2 * 24px) / 3);
-  transition-property: box-shadow;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover {
@@ -363,7 +363,7 @@ img {
   background-color: #4d5ae5;
   padding: 40px 32px;
   transform: translateY(100%);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-card {
@@ -431,7 +431,7 @@ img {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
