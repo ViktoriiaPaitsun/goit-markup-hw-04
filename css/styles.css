@@ -300,7 +300,6 @@ img {
 }
 
 .team-card-icon {
-  fill: transparent;
 }
 
 .portfolio {
@@ -372,7 +371,11 @@ img {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+}
+
+.footer-container {
   display: flex;
+  gap: 120px;
 }
 
 .logo-part-footer {
@@ -393,6 +396,30 @@ img {
   max-width: 264px;
 }
 
-.footer-icon-text {
+.footer-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  transition-property: color;
+}
+
+.footer-link:hover {
+  background-color: #31d0aa;
+}
+
+.footer-icon {
+}
+
+.footer-social-text {
   color: #fff;
+  margin-bottom: 16px;
 }
